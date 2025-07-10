@@ -59,6 +59,7 @@ main{
 }
 
 .iphone11{
+    width: 95%;
     text-align: center;
     position: relative;
     top: 50px;
@@ -67,17 +68,18 @@ main{
 .iphone11 img{
     width: 30vw;
 }
+@media (max-width: 600px) {
+    .iphone11 img {
+        width: 42vw;
+    }
+}
 
 .iphone11 h2{
     color: #fff;
     font-size: clamp(25px, 1.8vw, 36px);
     letter-spacing: 0.5vw;
 }
-@media (max-width: 500px) {
-    img {
-        width: 25vw;
-    }
-}
+
 
 .iphone11 p{
     color: #fff;
