@@ -127,7 +127,7 @@ main{
     margin: 2vw auto;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/modrePozadiApple.jpg);
     background-size: cover;
-    height: 140vh;
+    height: 70%;
     text-align: center;
 }
 
@@ -154,12 +154,10 @@ main{
     top: 2vw;
     color: #fff;
     font-size: clamp(15px, 1.5vw, 30px);
-    margin-bottom:4vw;
+    margin-bottom:3vw;
 }
 
 .iMac button{
-    position: relative;
-    top: 1vw;
     padding: 0.8vh 1vh;
     border-radius: 8px;
     background-color: #1b98e0;
@@ -176,7 +174,7 @@ main{
 
 #infoIMac{
     position: relative;
-    top: 5vw;
+    top: 3vw;
     color: #1b98e0;
 }
 
@@ -184,4 +182,16 @@ main{
     position: relative;
     top: 5vw;
     display: inline-block;
+}
+
+.iOS{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/appleGIF.gif);
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
 }
