@@ -45,7 +45,7 @@ header nav ul li a:hover::after {
 
 main{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/pozadiWebu.png);
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
 }
 
@@ -70,5 +70,30 @@ main{
 
 .iphone11 h2{
     color: #fff;
-    font-size: clamp(16px, 1.8vw, 36px);
+    font-size: clamp(25px, 1.8vw, 36px);
+    letter-spacing: 0.5vw;
+}
+@media (max-width: 600px) {
+    img {
+        width: 20vw;
+    }
+}
+
+.iphone11 p{
+    color: #fff;
+    font-size: clamp(15px, 1.5vw, 30px);
+    letter-spacing: 0.3vw;
+}
+
+.iphone11 button{
+    padding: 0.8vh 1vh;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.iphone11 button:hover{
+    background-color: #1b98e0;
+    color: #fff;
+    border-color: #1b98e0;
 }
