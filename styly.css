@@ -127,16 +127,16 @@ main{
     margin: 2vw auto;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadiImacGIF.gif);
     background-size: cover;
-    height: 70%;
+    height: 115vh;
     text-align: center;
 }
 
 .iMac img{
-    width: 30vw;
+    width: 45vw;
 }
 @media (max-width: 430px) {
-    .iphone11 img {
-        width: 40vw;
+    .iMac img {
+        width: 50vw;
     }
 }
 
