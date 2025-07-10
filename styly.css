@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #4b5054;
+}
+
+
+header nav ul li a {
+    position: relative;
+    font-size: clamp(16px, 2vw, 30px);
+    color: #fff;
+    text-decoration: none;
+    line-height: 8vh;
+}
+
+header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    transition: width 0.4s ease;
+}
+
+/* Když najedeš myší */
+header nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* KONEC HLAVICKY */
+
+main{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/pozadiWebu.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.nadpisWebu{
+    font-size: clamp(25px, 2.2vw, 45px);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 3vh;
+    letter-spacing: 0.5vw;
+}
