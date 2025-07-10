@@ -70,3 +70,9 @@ main h1{
     margin: 0 auto;
     color: rgb(224, 234, 234);
 }
+
+main img{
+    width: 40vw;
+    margin: 2vw auto;
+    display: block;
+}
