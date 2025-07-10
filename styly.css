@@ -73,9 +73,9 @@ main{
     font-size: clamp(25px, 1.8vw, 36px);
     letter-spacing: 0.5vw;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     img {
-        width: 20vw;
+        width: 25vw;
     }
 }
 
