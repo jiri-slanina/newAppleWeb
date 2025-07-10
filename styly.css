@@ -125,7 +125,7 @@ main{
     position: relative;
     top: 12vw;
     margin: 2vw auto;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/modrePozadiApple.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadiImacGIF.gif);
     background-size: cover;
     height: 70%;
     text-align: center;
@@ -184,14 +184,22 @@ main{
     display: inline-block;
 }
 
-.iOS{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/appleGIF.gif);
-    background-size: cover;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    gap: 2vw;
+.kratkyText{
+    background-image: url(img/GIFsynchronizace.gif);
+    height: 60vh;
 }
+
+.iOS{
+    position: relative;
+    top: 8vw;
+    background-image: url(img/GIFsynchronizace.gif);
+    height: 50vh;
+}
+/* .iOS img{
+    width: 40vw;
+}
+@media (max-width: 430px) {
+    .iphone11 img {
+        width: 40vw;
+    }
+} */
