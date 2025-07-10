@@ -6,6 +6,7 @@
 
 body{
     width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -47,6 +48,7 @@ main{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/pozadiWebu.png);
     height: 120vh;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .nadpisWebu{
@@ -58,48 +60,128 @@ main{
     letter-spacing: 0.5vw;
 }
 
+/* OBSAH IPHONE */
 .iphone11{
     width: 95%;
     text-align: center;
     position: relative;
     top: 50px;
+    margin: 0 auto;
 }
 
 .iphone11 img{
     width: 30vw;
 }
-@media (max-width: 600px) {
+@media (max-width: 430px) {
     .iphone11 img {
-        width: 42vw;
+        width: 40vw;
     }
 }
 
 .iphone11 h2{
     color: #fff;
-    font-size: clamp(25px, 1.8vw, 36px);
+    font-size: clamp(30px, 2vw, 42px);
     letter-spacing: 0.5vw;
+    text-decoration: underline;
 }
 
 
 .iphone11 p{
-    color: #fff;
+    margin: 0 auto;
+    padding: 5px 8px;
+    color: #1b98e0;
     font-size: clamp(15px, 1.5vw, 30px);
     letter-spacing: 0.3vw;
+    text-align: center;
+}
+
+#infoIphone11{
+    margin: 1.5vw auto;
 }
 
 .iphone11 button{
     padding: 0.8vh 1vh;
     border-radius: 8px;
-    margin-top: 10px;
+    background-color: #1b98e0;
+    color: #fff;
+    border-color: #fff;
     transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 .iphone11 button:hover{
-    background-color: #1b98e0;
-    color: #fff;
+    background-color: #fff;
+    color: #1b98e0;
     border-color: #1b98e0;
 }
 
-#skrytBtn{
+#skrytBtnIphone{
+    display: inline-block;
+    margin-bottom: 2vw;
+}
+/* OBSAH IPHONE */
+/* OBSAH IMAC */
+
+.iMac{
+    position: relative;
+    top: 12vw;
+    margin: 2vw auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/modrePozadiApple.jpg);
+    background-size: cover;
+    height: 140vh;
+    text-align: center;
+}
+
+.iMac img{
+    width: 30vw;
+}
+@media (max-width: 430px) {
+    .iphone11 img {
+        width: 40vw;
+    }
+}
+
+.iMac h2{
+    color: #1b98e0;
+    text-decoration: underline;
+    font-size: clamp(30px, 2vw, 42px);
+    letter-spacing: 5px;
+    position: relative;
+    top: 2vw;
+}
+
+.iMac p{
+    position: relative;
+    top: 2vw;
+    color: #fff;
+    font-size: clamp(15px, 1.5vw, 30px);
+    margin-bottom:4vw;
+}
+
+.iMac button{
+    position: relative;
+    top: 1vw;
+    padding: 0.8vh 1vh;
+    border-radius: 8px;
+    background-color: #1b98e0;
+    color: #fff;
+    border-color: #fff;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.iMac button:hover{
+    background-color: #fff;
+    color: #1b98e0;
+    border-color: #1b98e0;
+}
+
+#infoIMac{
+    position: relative;
+    top: 5vw;
+    color: #1b98e0;
+}
+
+#skrytBtnMAc{
+    position: relative;
+    top: 5vw;
     display: inline-block;
 }
