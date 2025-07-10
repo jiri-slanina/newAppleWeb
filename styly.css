@@ -57,3 +57,18 @@ main{
     top: 3vh;
     letter-spacing: 0.5vw;
 }
+
+.iphone11{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.iphone11 img{
+    width: 30rem;
+}
+
+.iphone11 h2{
+    color: #fff;
+    font-size: clamp(16px, 1.8vw, 36px);
+}
