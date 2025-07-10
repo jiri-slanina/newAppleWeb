@@ -97,3 +97,7 @@ main{
     color: #fff;
     border-color: #1b98e0;
 }
+
+#skrytBtn{
+    display: inline-block;
+}
