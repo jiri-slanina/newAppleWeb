@@ -7,6 +7,7 @@
 body{
     width: 100%;
     margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -52,12 +53,13 @@ main{
 }
 
 .nadpisWebu{
-    font-size: clamp(25px, 2.2vw, 45px);
+    font-size: clamp(32px, 2.5vw, 48px);
     color: #fff;
     text-align: center;
     position: relative;
     top: 3vh;
     letter-spacing: 0.5vw;
+    box-shadow: 8px 5px 5px 2px #fff;
 }
 
 /* OBSAH IPHONE */
@@ -90,13 +92,14 @@ main{
     margin: 0 auto;
     padding: 5px 8px;
     color: #1b98e0;
-    font-size: clamp(15px, 1.5vw, 30px);
+    font-size: clamp(15px, 1.5vw, 23px);
     letter-spacing: 0.3vw;
     text-align: center;
 }
 
 #infoIphone11{
     margin: 1.5vw auto;
+    color: #fff;
 }
 
 .iphone11 button{
@@ -153,7 +156,7 @@ main{
     position: relative;
     top: 2vw;
     color: #fff;
-    font-size: clamp(15px, 1.5vw, 30px);
+    font-size: clamp(15px, 1.5vw, 23px);
     margin-bottom:3vw;
 }
 
