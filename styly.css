@@ -47,9 +47,9 @@ header nav ul li a:hover::after {
 /* KONEC HLAVICKY */
 
 main{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/pozadiWebu.png);
+    background-image: linear-gradient(rgba(0,0,0.5,0.9),rgba(0,0,0,0.7)), url(img/13-iPhones-15.jpg);
     min-height: 100vh;
-    background-size: cover;
+    background-size: 100%;
     margin: 0 auto;
     width: 92%;
 }
@@ -76,8 +76,8 @@ main input[type=email]{
 }
 
 main input[type=submit]{
-    width: 15vw;
-    padding: 1.2vw 1.8vw;
+    width: 20vw;
+    padding: 1.2vw 2vw;
     border-radius: 2vw;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
@@ -314,4 +314,12 @@ main input[type=submit]:hover{
 
 .skrytBtnWatch{
     display: inline-block;
+}
+
+.iOsBuddy{
+    background-image: url(img/appleBuddy.gif);
+    height: auto;
+    display: block;
+    height: 30vh;
+    margin-top: 5vw
 }

@@ -7,7 +7,7 @@
 body{
     width: 100%;
     margin: 0 auto;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
@@ -69,18 +69,4 @@ main h1{
     top: 20vw;
     margin: 0 auto;
     color: rgb(224, 234, 234);
-}
-
-main img{
-    width: 40vw;
-    margin: 2vw auto;
-    display: block;
-}
-
-.iphone1{
-    text-align: center;
-}
-
-.iphone1 label{
-    color: #1b98e0;
 }

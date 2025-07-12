@@ -7,7 +7,7 @@
 body{
     width: 100%;
     margin: 0 auto;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
@@ -56,31 +56,50 @@ header nav ul li a:hover::after {
 main{
     position: relative;
     top: 1vw;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/modrePozadiApple.jpg);
-    height: 50vw;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/13-iPhones-15.jpg);
+    background-size: 100%;
+    height: auto;
 }
 
 
 main h1{
-    font-size: clamp(25px, 2.2vw, 50px);
+    font-size: clamp(22px, 2.2vw, 50px);
     width: 95vw;
     text-align: center;
-    position: relative;
-    top: 20vw;
     margin: 0 auto;
     color: rgb(224, 234, 234);
 }
 
-main img{
-    width: 40vw;
-    margin: 2vw auto;
-    display: block;
-}
-
-.iphone1{
+.formular{
     text-align: center;
+    position: relative;
+    top: 2vw;
 }
 
-.iphone1 label{
-    color: #1b98e0;
+
+main form input{
+    margin-top: 2vw;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+main form input[type=submit]{
+    margin-bottom: 5vw;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+main form input[type=submit]:hover{
+    background-color: #1b98e0;
+    color: #fff;
+    border-color: #1b98e0;
+}
+
+textarea{
+    margin-top: 2vw;
+    text-align: center;
+    border-radius: 8px;
 }
