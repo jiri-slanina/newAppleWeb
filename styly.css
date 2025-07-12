@@ -255,8 +255,8 @@ main input[type=submit]:hover{
 
 .iWatch{
     text-align: center;
-    background-image: url(img/GIFwatch.gif);
-    background-size: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/novyGIFiWatch.gif);
+    background-size: 100%;
     height: auto;
     margin-top: 5vw;
 }
@@ -322,4 +322,10 @@ main input[type=submit]:hover{
     display: block;
     height: 30vh;
     margin-top: 5vw
+}
+
+footer{
+    background-color: #4b5054;
+    color: #fff;
+    text-align: center;
 }

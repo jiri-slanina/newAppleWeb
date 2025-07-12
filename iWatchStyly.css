@@ -70,3 +70,9 @@ main h1{
     margin: 0 auto;
     color: rgb(224, 234, 234);
 }
+
+footer{
+    background-color: #4b5054;
+    color: #fff;
+    text-align: center;
+}

@@ -57,7 +57,6 @@ main{
     position: relative;
     top: 1vw;
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/modrePozadiApple.jpg);
-    height: 50vw;
 }
 
 
@@ -83,4 +82,12 @@ main img{
 
 .iphone1 label{
     color: #1b98e0;
+}
+
+
+footer{
+    background-color: #4b5054;
+    color: #fff;
+    margin-top: 1vw;
+    text-align: center;
 }
