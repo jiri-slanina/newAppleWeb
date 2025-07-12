@@ -33,3 +33,24 @@ function skrytBtnIMac() {
     document.getElementById("infoIMac"). innerHTML = ""
     document.getElementById("skrytBtnIMac").style.display = "none"
 }
+
+
+function iWatchInfo() {
+    document.getElementById("infoIWatch").innerHTML = "Model: Apple Watch SE (2. generace)<br>" +
+    "Procesor: Apple S8 SiP s 64bitovým dvoujádrovým čipem<br>" +
+    "Displej: Retina LTPO OLED, až 1000 nitů<br>" +
+    "Funkce: detekce pádu, nouzové SOS, sledování srdečního tepu a spánku<br>" +
+    "Připojení: Bluetooth 5.3, Wi‑Fi, GPS<br>" +
+    "Odolnost: voděodolnost do 50 m (WR50)<br>" +
+    "Baterie: až 18 hodin výdrže<br>" +
+    "Velikosti: 40 mm / 44 mm<br>" +
+    "Kompatibilita: iPhone 8 nebo novější, iOS 16 a vyšší<br>";
+
+    document.getElementById("skrytBtnWatch").style.display = "inline-block"
+}
+
+function smazIWatch(){
+    document.getElementById("infoIWatch").innerHTML = ""
+    
+    document.getElementById("skrytBtnWatch").style.display = "none"
+}
