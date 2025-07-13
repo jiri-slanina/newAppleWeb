@@ -22,10 +22,10 @@ body{
 
 header nav ul li a {
     position: relative;
-    font-size: clamp(16px, 1.8vw, 30px);
+    font-size: clamp(16px, 1.2vw, 28px);
     color: #fff;
     text-decoration: none;
-    line-height: 8vh;
+    line-height: 6vh;
 }
 
 header nav ul li a::after {
@@ -91,12 +91,16 @@ main input[type=submit]:hover{
 
 .nadpisWebu{
     font-size: clamp(28px, 2.5vw, 48px);
-    color: #fff;
+    background: linear-gradient(to left, rgba(17, 219, 14, 0.784), orange, yellow, rgb(22, 89, 246), rgb(255, 0, 0), rgb(30, 236, 33), rgb(228, 40, 228));
+    background-clip: text;           /* standardní vlastnost */
+    -webkit-background-clip: text;   /* verze pro Chrome, Safari */
+    color: transparent;              /* standardní způsob */
+    -webkit-text-fill-color: transparent;
     text-align: center;
     position: relative;
     top: 3vh;
     letter-spacing: 0.5vw;
-    box-shadow: 0px 5px 5px 0px #1b98e0;
+    box-shadow: 0px 8px 05px 0px #1b98e0;
 }
 
 /* OBSAH IPHONE */
@@ -319,13 +323,13 @@ main input[type=submit]:hover{
 .iOsBuddy{
     background-image: url(img/appleBuddy.gif);
     height: auto;
-    display: block;
-    height: 30vh;
-    margin-top: 5vw
+    height: 40vh;
+    margin-top: 15vw;
+    margin-bottom: 15vw;
 }
 
 footer{
     background-color: #4b5054;
-    color: #fff;
+    color: #ffffff91;
     text-align: center;
 }

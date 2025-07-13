@@ -21,10 +21,10 @@ body{
 
 header nav ul li a {
     position: relative;
-    font-size: clamp(16px, 1.8vw, 30px);
+    font-size: clamp(16px, 1.2vw, 28px);
     color: #fff;
     text-decoration: none;
-    line-height: 8vh;
+    line-height: 6vh;
 }
 
 header nav ul li a::after {
@@ -73,6 +73,6 @@ main h1{
 
 footer{
     background-color: #4b5054;
-    color: #fff;
+    color: #ffffff91;
     text-align: center;
 }

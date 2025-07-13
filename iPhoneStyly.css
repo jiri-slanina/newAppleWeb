@@ -21,10 +21,10 @@ body{
 
 header nav ul li a {
     position: relative;
-    font-size: clamp(16px, 1.8vw, 30px);
+    font-size: clamp(16px, 1.2vw, 28px);
     color: #fff;
     text-decoration: none;
-    line-height: 8vh;
+    line-height: 6vh;
 }
 
 header nav ul li a::after {
@@ -53,41 +53,57 @@ header nav ul li a:hover::after {
 
 /* KONEC OBSAHU HLAVICKY */
 
-main{
-    position: relative;
-    top: 1vw;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/modrePozadiApple.jpg);
-}
 
 
-main h1{
-    font-size: clamp(25px, 2.2vw, 50px);
-    width: 95vw;
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
+    background-image: url(img/pozadiImacGIF.gif);
+    background-size: 100%;
+}
+
+.section img{
+    width: 35vw;
+}
+
+.posuvnik{
     position: relative;
-    top: 20vw;
-    margin: 0 auto;
-    color: rgb(224, 234, 234);
+    top: -2.5vw;
 }
 
-main img{
-    width: 40vw;
-    margin: 2vw auto;
-    display: block;
+.section h2{
+    color: #fff;
+    font-size: clamp(15px, 1.8vw, 30px);
 }
 
-.iphone1{
-    text-align: center;
+.section select{
+    padding: 0.2vw 1vw;
+    border-radius: 2vw;
 }
 
-.iphone1 label{
-    color: #1b98e0;
+.section input{
+    padding: 0.2vw 1vw;
+    margin-top: 2vw;
+    border-radius: 2vw;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
+
+.section input:hover{
+    background-color: #1b98e0;
+    color: #fff;
+    border-color: #1b98e0;
+}
+
+
+
+
 
 
 footer{
     background-color: #4b5054;
-    color: #fff;
+    color: #ffffff91;
     margin-top: 1vw;
     text-align: center;
 }
