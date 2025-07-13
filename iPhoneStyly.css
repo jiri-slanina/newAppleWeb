@@ -60,7 +60,7 @@ header nav ul li a:hover::after {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-image: url(img/pozadiImacGIF.gif);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadiImacGIF.gif);
     background-size: 100%;
 }
 
