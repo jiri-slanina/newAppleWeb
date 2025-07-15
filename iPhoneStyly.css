@@ -73,13 +73,22 @@ header nav ul li a:hover::after {
 .section select{
     padding: 0.2vw 1vw;
     border-radius: 2vw;
+    cursor: pointer;
+    background-color: #4b5054;
+    color: #fff;
+    border-color: #fff;
 }
 
 .section input{
-    padding: 0.2vw 1vw;
+    padding: 0.5vw 1.5svw;
     margin-top: 2vw;
     border-radius: 2vw;
     transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    cursor: pointer;
+    background-color: #4b5054;
+    color: #fff;
+    border-color: #fff;
+    margin-bottom: 5vw;
 }
 
 .section input:hover{
@@ -88,17 +97,45 @@ header nav ul li a:hover::after {
     border-color: #1b98e0;
 }
 
-.iphone14Pro{
-    margin-top: 100px;
+.meziSekce img{
+    width: 50vw;
+    height: 20vh;
+    border-radius: 10vw;
+    background-size:  90%;
+    margin-bottom: 5vw;
+}
+@media(max-width: 450px) {
+    .meziSekce img{
+        width: 45wv;
+    }
+}
+@media(min-height: 350px){
+    .meziSekce img{
+        height: 40vw;
+    }
+}
+
+
+.iphone14Pro img{
+    width: 35vw;
+}
+@media (max-width: 430px) {
+    .iphone14Pro img {
+        width: 50vw;
+    }
 }
 
 .iphone12Pro img{
     width: 45vw;
 }
-
-.iphone14Pro img{
-    width: 35vw;
+@media (max-width: 430px) {
+    .iphone12Pro img {
+        width: 50vw;
+    }
 }
+
+
+
 
 
 

@@ -151,6 +151,7 @@ main input[type=submit]:hover{
     color: #fff;
     border-color: #fff;
     transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    cursor: pointer;
 }
 
 .iphone11 button:hover{
@@ -213,6 +214,7 @@ main input[type=submit]:hover{
     color: #fff;
     border-color: #fff;
     transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    cursor: pointer;
 }
 
 .iMac button:hover{
@@ -292,6 +294,7 @@ main input[type=submit]:hover{
     color: #fff;
     border-color: #fff;
     transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    cursor: pointer;
 }
 
 .iWatch button:hover{
