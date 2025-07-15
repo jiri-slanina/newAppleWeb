@@ -57,21 +57,13 @@ header nav ul li a:hover::after {
 
 .section{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadiImacGIF.gif);
     background-size: 100%;
 }
 
-.section img{
-    width: 35vw;
-}
-
-.posuvnik{
-    position: relative;
-    top: -2.5vw;
-}
 
 .section h2{
     color: #fff;
@@ -94,6 +86,18 @@ header nav ul li a:hover::after {
     background-color: #1b98e0;
     color: #fff;
     border-color: #1b98e0;
+}
+
+.iphone14Pro{
+    margin-top: 100px;
+}
+
+.iphone12Pro img{
+    width: 45vw;
+}
+
+.iphone14Pro img{
+    width: 35vw;
 }
 
 
