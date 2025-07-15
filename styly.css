@@ -331,6 +331,16 @@ main input[type=submit]:hover{
     margin-bottom: 15vw;
 }
 
+.fade-in{
+    opacity: 1;
+    transition:  opacity 1s;
+}
+
+.fade-out{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
 footer{
     background-color: #4b5054;
     color: #ffffff91;

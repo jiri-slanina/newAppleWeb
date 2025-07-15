@@ -1,3 +1,4 @@
+/* IPHONE11  */
 function infoIphone11() {
     document.getElementById("infoIphone11").innerHTML = "Procesor: A13 Bionic chip<br>"+
     "Fotoaparát: zadní (12MP+12MP)<br>"+
@@ -8,15 +9,25 @@ function infoIphone11() {
     "Rozměry: 150.9 x 75.7 x 8.3mm<br>"+
     "Hmotnost: 194g";
 
-    document.getElementById("skrytBtnIphone").style.display = "inline-block"
+    let btn = document.getElementById("skrytBtnIphone");
+    btn.style.display = "inline-block";
+    btn.classList.remove("fade-out");
+    btn.classList.add("fade-in");
 }
 
 function smazInfo() {
-    document.getElementById("infoIphone11").textContent = ""
-    document.getElementById("skrytBtnIphone").style.display = "none"
+    let btn = document.getElementById("skrytBtnIphone");
+    btn.classList.remove("fade-in");
+    btn.classList.add("fade-out");
+
+    setTimeout(function(){
+        document.getElementById("infoIphone11").textContent = "";
+        btn.style.display = "none";
+    }, 1000);
 }
+/* IPHONE11 END */
 
-
+/* IMAC */
 function iMacInfo() {
     document.getElementById("infoIMac").innerHTML = "Procesor: Apple M3 chip (8jádrové CPU, 8jádrové nebo 10jádrové GPU)<br>"+
     "Paměť (RAM): 8 GB / 16 GB / 24 GB jednotné paměti<br>"+
@@ -33,7 +44,9 @@ function skrytBtnIMac() {
     document.getElementById("infoIMac"). innerHTML = ""
     document.getElementById("skrytBtnIMac").style.display = "none"
 }
+/* IMAC END */
 
+/* IWATCH */
 
 function iWatchInfo() {
     document.getElementById("infoIWatch").innerHTML = "Model: Apple Watch SE (2. generace)<br>" +
@@ -54,3 +67,5 @@ function smazIWatch(){
     
     document.getElementById("skrytBtnWatch").style.display = "none"
 }
+/* IWATCH END */
+
