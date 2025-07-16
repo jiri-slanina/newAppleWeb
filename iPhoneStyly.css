@@ -106,12 +106,12 @@ header nav ul li a:hover::after {
 }
 @media(max-width: 450px) {
     .meziSekce img{
-        width: 45wv;
+        width: 25wv;
     }
 }
-@media(min-height: 350px){
+@media(min-height: 600px){
     .meziSekce img{
-        height: 40vw;
+        height: 20vw;
     }
 }
 
