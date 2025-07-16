@@ -278,6 +278,7 @@ main input[type=submit]:hover{
     top: 8vw;
     background-image: url(img/GIFsynchronizace.gif);
     height: 50vh;
+    box-shadow: 15px 0px 15px 0px #fff;
 }
 .iOS img{
     width: 60vw;
@@ -364,6 +365,7 @@ main input[type=submit]:hover{
     height: 40vh;
     margin-top: 15vw;
     margin-bottom: 15vw;
+    box-shadow: 15px 0px 15px 0px #fff;
 }
 
 
