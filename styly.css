@@ -144,6 +144,10 @@ main input[type=submit]:hover{
     font-size: clamp(12px, 1.8vw, 25px);
 }
 
+#infoIphone11 span{
+    color: #1b98e0;
+}
+
 .iphone11 button{
     padding: 1vh 2vh;
     border-radius: 8px;
@@ -229,6 +233,10 @@ main input[type=submit]:hover{
     margin: 2vw auto;
     color: #fff;
     font-size: clamp(12px, 1.8vw, 25px);
+}
+
+#infoIMac span{
+    color: #1b98e0;
 }
 
 #skrytBtnMAc{
@@ -319,6 +327,10 @@ main input[type=submit]:hover{
     font-size: clamp(12px, 1.8vw, 25px);
 }
 
+#infoIWatch span{
+    color: #1b98e0;
+}
+
 .skrytBtnWatch{
     display: inline-block;
 }
@@ -330,6 +342,7 @@ main input[type=submit]:hover{
     margin-top: 15vw;
     margin-bottom: 15vw;
 }
+
 
 .fade-in{
     opacity: 1;
