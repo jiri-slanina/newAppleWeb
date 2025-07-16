@@ -114,6 +114,22 @@ main input[type=submit]:hover{
     margin: 0 auto;
 }
 
+#loga{
+    display: flex;
+    justify-content: space-around;
+}
+
+#loga img{
+    width: 20vw;
+    border-radius: 5vw;
+}
+
+@media(min-width: 350px) {
+    #loga img{
+        width: 15vw;
+    }
+}
+
 .iphone11 img{
     width: 30vw;
 }
@@ -148,6 +164,7 @@ main input[type=submit]:hover{
 
 #infoIphone11 span{
     color: #1b98e0;
+    font-size: clamp(13px, 1.9vw, 30px);
 }
 
 .iphone11 button{
@@ -259,7 +276,7 @@ main input[type=submit]:hover{
     height: 50vh;
 }
 .iOS img{
-    width: 40vw;
+    width: 60vw;
 }
 @media (max-width: 430px) {
     .iphone11 img {

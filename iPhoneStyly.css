@@ -54,7 +54,6 @@ header nav ul li a:hover::after {
 /* KONEC OBSAHU HLAVICKY */
 
 
-
 .section{
     display: flex;
     flex-direction: column;
@@ -145,6 +144,5 @@ header nav ul li a:hover::after {
 footer{
     background-color: #4b5054;
     color: #ffffff91;
-    margin-top: 1vw;
     text-align: center;
 }

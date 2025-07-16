@@ -89,13 +89,14 @@ main form input[type=submit]{
     padding: 8px 10px;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    background-color: #1b98e0;
+    color: #fff;
 }
 
 main form input[type=submit]:hover{
-    background-color: #1b98e0;
+    background-color: #0f92ddaf;
     color: #fff;
-    border-color: #1b98e0;
 }
 
 textarea{
@@ -103,6 +104,11 @@ textarea{
     text-align: center;
     border-radius: 8px;
 }
+
+
+
+
+
 
 footer{
     background-color: #4b5054;
