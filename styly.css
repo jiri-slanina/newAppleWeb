@@ -19,6 +19,33 @@ body{
     background-color: #4b5054;
 }
 
+header nav ul li a img{
+    width: 1.5vw;
+    position: absolute;    
+    top: 0.2vw;
+}
+@media(max-width: 420px){
+    header nav ul li a img{
+        width: 4vw;
+    }
+}
+header nav ul li a img::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    transition: width 0.4s ease;
+}
+
+/* Když najedeš myší */
+header nav ul li a img:hover::after {
+    width: 100%;
+}
+
+
 
 header nav ul li a {
     position: relative;
@@ -27,6 +54,7 @@ header nav ul li a {
     text-decoration: none;
     line-height: 6vh;
 }
+
 
 header nav ul li a::after {
     content: '';
@@ -56,7 +84,7 @@ main{
 
 /* E-MAIL PRO ODBER */
 .odberNovinek{
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.784), orange, yellow, rgb(8, 191, 8), rgb(255, 0, 0), rgb(30, 236, 33), rgb(228, 40, 228));
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.937), orange, yellow, rgb(12, 225, 12), rgb(255, 0, 0), rgb(30, 236, 33), rgb(228, 40, 228));
     background-clip: text;           /* standardní vlastnost */
     -webkit-background-clip: text;   /* verze pro Chrome, Safari */
     color: transparent;              /* standardní způsob */
