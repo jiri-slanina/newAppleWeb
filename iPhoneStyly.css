@@ -103,9 +103,9 @@ header nav ul li a:hover::after {
     background-size:  90%;
     margin-bottom: 5vw;
 }
-@media(max-width: 500px) {
+@media(max-width: 600px) {
     .meziSekce img{
-        width: 40wv;
+        display: none;
     }
 }
 @media(min-height: 600px){
