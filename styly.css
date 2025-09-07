@@ -84,7 +84,7 @@ main{
 
 /* E-MAIL PRO ODBER */
 .odberNovinek{
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.937), orange, yellow, rgb(12, 225, 12), rgb(255, 0, 0), rgb(30, 236, 33), rgb(228, 40, 228));
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.937), rgb(255, 34, 0), yellow, rgb(225, 12, 211), rgb(246, 255, 0), rgb(236, 30, 222), rgb(222, 40, 228));
     background-clip: text;           /* standardní vlastnost */
     -webkit-background-clip: text;   /* verze pro Chrome, Safari */
     color: transparent;              /* standardní způsob */
@@ -145,6 +145,12 @@ main input[type=submit]:hover{
 #loga{
     display: flex;
     justify-content: space-around;
+}
+
+@media(max-width: 650px){
+    #loga{
+        display: none;
+    }
 }
 
 #loga h1{
@@ -308,6 +314,13 @@ main input[type=submit]:hover{
     height: 50vh;
     box-shadow: 15px 0px 15px 0px #fff;
 }
+
+@media(max-width: 400px){
+    .iOS{
+        display: none;
+    }
+}
+
 .iOS img{
     width: 60vw;
 }
@@ -396,6 +409,11 @@ main input[type=submit]:hover{
     box-shadow: 15px 0px 15px 0px #fff;
 }
 
+@media(max-width: 400px){
+    .iOsBuddy{
+        display: none;
+    }
+}
 
 .fade-in{
     opacity: 1;
