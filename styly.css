@@ -315,7 +315,7 @@ main input[type=submit]:hover{
     box-shadow: 15px 0px 15px 0px #fff;
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px){
     .iOS{
         display: none;
     }
@@ -409,7 +409,7 @@ main input[type=submit]:hover{
     box-shadow: 15px 0px 15px 0px #fff;
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px){
     .iOsBuddy{
         display: none;
     }
