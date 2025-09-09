@@ -11,13 +11,28 @@ body{
 }
 
 
-
-.nav-bar{
+#nav-bar{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     background-color: #4b5054;
 }
+
+@media(max-width: 600px) {
+    #nav-bar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 15vw;
+        text-align: center;
+        left: 5vw;
+        top: 14vh;
+        border-radius: 2vw;
+        z-index: 1000;
+    }
+}
+
 
 header nav ul li a img{
     width: 1.5vw;

@@ -69,3 +69,22 @@ function smazIWatch(){
 }
 /* IWATCH END */
 
+
+
+
+
+
+
+
+
+
+
+
+
+// function skrytMenu() {
+//     document.getElementById("nav-bar").style.display = "none"
+// }
+
+// function zmenseni() {
+//     document.getElementById("dropdown").style.display = "none"
+// }
