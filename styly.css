@@ -98,6 +98,17 @@ main{
 }
 
 /* E-MAIL PRO ODBER */
+.odber{
+    background-color: #606a7091;
+}
+
+@media(max-width: 600px) {
+    .odber{
+        display: none;
+    }
+}
+
+
 .odberNovinek{
     background: linear-gradient(to left, rgba(255, 0, 0, 0.937), rgb(255, 34, 0), yellow, rgb(225, 12, 211), rgb(246, 255, 0), rgb(236, 30, 222), rgb(222, 40, 228));
     background-clip: text;           /* standardní vlastnost */
