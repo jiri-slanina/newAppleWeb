@@ -162,7 +162,7 @@ main input[type=email]{
 
 /* OBSAH IPHONE */
 .iphone11{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/GIFcolection.gif);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/zmizetGifApple.gif);
     background-size: cover;
     width: 100%;
     text-align: center;
@@ -174,6 +174,7 @@ main input[type=email]{
 #loga{
     display: flex;
     justify-content: space-around;
+    margin-top: -7vw;
 }
 
 @media(max-width: 650px){
