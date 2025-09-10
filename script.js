@@ -69,8 +69,9 @@ function smazIWatch(){
 }
 /* IWATCH END */
 
-
-
+function btnOdberNovinek() {
+    document.getElementById("btnOdber").innerText = ("Úspěšně jste začali odebírat novinky")
+}
 
 
 

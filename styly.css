@@ -97,7 +97,8 @@ main{
 
 /* E-MAIL PRO ODBER */
 .odber{
-    background-color: #606a7091;
+    /* background-image: url(img/modrePozadiApple.jpg); */
+    margin: 0.2vw auto;
 }
 
 @media(max-width: 600px) {
@@ -126,10 +127,21 @@ main input[type=email]{
     border-radius: 2vw;
 }
 
-main input[type=submit]:hover{
-    background-color: #1b98e084;
+.odber form button{
+    padding:  1.2vw 1.8vw;
+    border-radius: 2vw;
+}
+
+.odber form button:hover{
+    background-color: #3a3c3eed;
     color: #fff;
 }
+
+#btnOdber{
+    color: #fff;
+    font-size: clamp(16px, 1.5vw, 28px);
+}
+
 /* KONEC E-MAIL PRO ODBER */
 
 
