@@ -97,7 +97,7 @@ main{
 
 /* E-MAIL PRO ODBER */
 .odber{
-    /* background-image: url(img/modrePozadiApple.jpg); */
+    background-color: #606a7091;
     margin: 0.2vw auto;
 }
 
@@ -146,12 +146,9 @@ main input[type=email]{
 
 
 
-
-
-
 .nadpisWebu{
     font-size: clamp(28px, 2.5vw, 48px);
-    background: linear-gradient(to left, rgba(17, 219, 14, 0.784), orange, yellow, rgb(22, 89, 246), rgb(255, 0, 0), rgb(30, 236, 33), rgb(228, 40, 228));
+    background-image: linear-gradient(to left, rgba(17, 219, 14, 0.784), orange, yellow, rgb(22, 89, 246), rgb(255, 0, 0), rgb(30, 236, 33), rgb(228, 40, 228));
     background-clip: text;           /* standardní vlastnost */
     -webkit-background-clip: text;   /* verze pro Chrome, Safari */
     color: transparent;              /* standardní způsob */
@@ -165,11 +162,13 @@ main input[type=email]{
 
 /* OBSAH IPHONE */
 .iphone11{
-    width: 95%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/GIFcolection.gif);
+    background-size: cover;
+    width: 100%;
     text-align: center;
     position: relative;
-    top: 50px;
     margin: 0 auto;
+    top: 10vw;
 }
 
 #loga{
@@ -338,6 +337,7 @@ main input[type=email]{
 }
 
 .iOS{
+    margin: 5vw auto;
     position: relative;
     top: 8vw;
     background-image: url(img/GIFsynchronizace.gif);
@@ -434,8 +434,8 @@ main input[type=email]{
     background-image: url(img/appleBuddy.gif);
     height: auto;
     height: 40vh;
-    margin-top: 15vw;
-    margin-bottom: 15vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     box-shadow: 15px 0px 15px 0px #fff;
 }
 
@@ -455,8 +455,3 @@ main input[type=email]{
     transition: opacity 1s;
 }
 
-footer{
-    background-color: #4b5054;
-    color: #ffffff91;
-    text-align: center;
-}
