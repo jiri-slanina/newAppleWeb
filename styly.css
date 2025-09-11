@@ -88,7 +88,7 @@ header nav ul li a:hover::after {
 /* KONEC HLAVICKY */
 
 main{
-    background-image: linear-gradient(rgba(0,0,0.5,0.9),rgba(0,0,0,0.7)), url(img/13-iPhones-15.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(img/13-iPhones-15.jpg);
     height: 100vh;
     background-size: 100%;
     margin: 0 auto;
@@ -366,8 +366,10 @@ main input[type=email]{
 .iWatch{
     text-align: center;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/novyGIFiWatch.gif);
-    background-size: 100%;
-    height: auto;
+    background-size: cover;       /* přizpůsobí na celou sekci */
+    background-position: center;  /* zarovnání */
+    background-repeat: no-repeat;
+    min-height: 80vh;             /* nastavíš pevnější výšku */
     margin-top: 5vw;
 }
 
